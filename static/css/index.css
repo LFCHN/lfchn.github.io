@@ -1,0 +1,45 @@
+.intro-container {
+
+}
+
+/* banner轮播 */
+.banner {
+  height: 150px;
+  background-color: beige;
+  font-size: 0;
+}
+.banner img {
+  width: 100%;
+}
+
+
+/* tab切换 */
+.tabs-box {
+  height: 64px;
+}
+.tabs {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #ccc;
+}
+.tabs .tab-pane {
+  text-align: center;
+  color: #ccc;
+  font-size: 12px;
+}
+.tabs .tab-pane.active {
+  color: #333;
+}
+
+/* 介绍文 */
+.text-box {
+  padding: 20px 15px;
+}
+.text-box img {
+  height: 150px;
+}
+.text-box p {
+  margin-top: 20px;
+}
